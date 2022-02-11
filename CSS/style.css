@@ -1,0 +1,92 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+*:focus:not(:focus-visible) {
+    outline: none;
+}
+
+html, body {
+    font-size: 62.5%;
+}
+
+header {
+    padding-top: 6.4rem;
+    padding-bottom: 6.4rem;
+    align-items: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 113.5rem; /*1 rem = 10 px*/
+    margin: 0 auto;
+}
+
+.header__menu {
+    display: flex;
+}
+
+.header__logo {
+    width: 7.9rem;
+    height: 2.8rem;
+    margin-right: 3.9rem;
+}
+
+.header__nav a:not(:last-child) {
+    margin-right: 2.4rem;
+}
+
+.header__nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header__social-icon {
+    width: 1.7rem;
+    height: 16rem;
+    text-decoration: none;
+}
+
+.header__social-icon:not(:last-child) {
+    margin-right: 2.1rem;
+}
+
+body {
+    background: url('../img/background.jpg');
+}
+
+.footer {
+    background-color: #030102;
+    color: #FFFFFF;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__menu {
+    padding-left: 0;
+    display: flex;
+}
+
+.footer__menu li {
+    list-style: none;
+}
+
+.footer__menu li:not(:last-child) {
+    margin-right: 2.5rem;
+}
+
+.footer__menu li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
