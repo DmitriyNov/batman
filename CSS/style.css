@@ -100,6 +100,7 @@ header .container {
 
 .main {
     padding-top: 18.7rem;
+    padding-bottom: 10.4rem;
     background: url('../img/background.jpg') no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -140,6 +141,11 @@ header .container {
     line-height: 117%;
 }
 
+.main__discription-wrap {
+    display: flex;
+    align-items: center;
+}
+
 .main__discription {
     font-size: 1.4rem;
     line-height: 150%;
@@ -151,6 +157,40 @@ header .container {
     font-family: 'Museo Sans';
     font-size: 7.6rem;
     line-height: 120%;
+}
+
+.main__button-play {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 33.1rem;
+    width: 13.2rem;
+    height: 13.2rem;
+}
+
+.main__button-opacity {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 50%;
+    background-color: #151515;
+    opacity: .5;
+}
+
+.main__button-dark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: .6rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: #151515;
+    cursor: pointer;
+    z-index: 3;
 }
 
 .main__button {
@@ -167,6 +207,37 @@ header .container {
     color: #ffffff;
     text-decoration: none;
     margin-bottom: 8.8rem;
+}
+
+.main-slider__wrap {
+    max-width: 41.6rem;
+    display: flex;
+    align-items: center;
+}
+
+.main-slider__slide {
+    position: relative;
+    width: 16.4rem;
+    height: 10.5rem;
+    border-radius: .8rem;
+    overflow: hidden;
+}
+
+.main-slider__slide span {
+    position: absolute;
+    left: 1.1rem;
+    bottom: 0.6rem;
+    transform: translate(0, 0);
+    font-size: 1rem;
+    line-height: 120%;
+}
+
+.main-slider__arrow {
+    width: 3.2rem;
+    height: 2.2rem;
+    flex-shrink: 0;
+    margin-left: 2.8rem;
+    cursor: pointer;
 }
 
 .footer {
